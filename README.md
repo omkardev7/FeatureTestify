@@ -28,5 +28,27 @@ This project is a web application that uses a multimodal LLM (LLaVA and LLaMA) v
 - [Groq API Key](https://groq.com/) (Sign up and create an account to obtain your API key)
 - [Pillow (PIL)](https://pillow.readthedocs.io/) for image processing
 
-### Installation
+### Usage
 
+- Open the web app in your browser.
+- Enter any additional context in the text box (optional).
+- Upload one or more screenshots of the digital product's features.
+- Click on the "Describe Testing Instructions" button.
+- View the generated testing instructions displayed below.
+
+
+### Example 
+To demonstrate the tool's capabilities, we use features from the Red Bus mobile app such as:
+
+- Source, Destination, and Date Selection
+- Bus Selection
+- Seat Selection
+- Pick-up and Drop-off Point Selection
+- Offers
+- Filters
+- Bus Information
+
+## Troubleshooting
+- Ensure your Groq API key is correctly set in the .env file.
+- Verify that all dependencies are installed.
+- Check if Streamlit and Python are properly installed and set up.
